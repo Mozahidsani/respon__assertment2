@@ -1,0 +1,311 @@
+
+.container{
+
+
+    width: 1100px;
+    padding: 20px;
+    border-radius: 5px;
+    
+    
+    
+    }
+    
+    main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    
+    
+    /*-------------------------
+            nav star
+    -------------------------*/
+    nav a{
+    
+        text-decoration: none;
+        font-size: 30px;
+        margin: 10px;
+        color: black;
+        font-weight: bold;
+        }
+        
+        
+        nav{
+         display: flex;
+         justify-content: space-between;   
+        }
+    
+        .nav-logo{
+    
+            font-size: 30px;
+            font-weight: bold;
+        }
+    
+    /*-------------------------
+            nav end
+    -------------------------*/
+    
+    
+    
+    
+    /*-------------------------
+            paft 1 star
+    -------------------------*/
+        .part1{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 90px;
+    
+        }
+    
+    
+        .love-buttton{
+    
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(248, 61, 98);
+    padding: 10px 30px;
+    
+    border-radius: 20px;
+        }
+    
+        h1{
+    
+       font-size: 40px;     
+        }
+    
+        .mozatree{
+    
+          margin-left: 10px;  
+        }
+    
+    
+    
+    /*-------------------------
+            paft 1 end
+    -------------------------*/
+    
+    
+    
+    /*--------------------------
+          start part 2
+    ---------------------------*/
+    
+    .parts2{
+    
+    margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        column-gap: 30px;
+    }
+    
+    
+    .part2-pro{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    }
+    
+    
+    .one-one-1{
+    
+    
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    column-gap: 10px;
+    
+    }
+    
+    .mozai{
+    
+    color: gold;
+    
+    }
+    
+    
+    
+    .one-one-1{
+    
+    background-color: rgb(252, 243, 232);
+    margin: 5px;
+    }
+    
+    /*--------------------------
+          end part 2
+    ---------------------------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*--------------------------
+          start part 3
+    ---------------------------*/
+    .part3{
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      padding: 20px;
+        
+            }
+        
+        
+            .love-buttton2{
+        
+        font-size: 17px;
+        font-weight: bold;
+        background-color: rgb(248, 61, 98);
+        padding: 10px 30px;
+        
+        
+            }
+        
+            h1{
+        
+           font-size: 40px;     
+            }
+    
+    
+            .loremm{
+    text-align: justify;
+            }
+    
+    /*--------------------------
+          end part 3
+    ---------------------------*/
+    
+    
+    
+    
+    
+    /*--------------------------
+          start footer
+    ---------------------------*/
+    
+    footer{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+    
+    .footer{
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+    }
+    
+    .footer-title{
+    
+     color: rgb(235, 217, 217);
+    font-size: 40px;
+    
+    }
+    
+    .footer-detals{
+    
+    color: rgb(248, 242, 242);
+    
+    }
+    
+    
+    .page-link{
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    
+    
+    
+    }
+    
+    .mozaC{
+    
+    margin: 30px;
+    
+    }
+    
+    
+    /*--------------------------
+          end footer
+    ---------------------------*/
+    
+    
+    
+    @media only screen and (max-width:688px){
+    
+    .container{
+    
+    width: 100%;
+    
+    }
+    
+    h1{
+    
+        font-size: 30px;     
+         }
+     
+    .part1, .parts2, .part3{
+    
+    grid-template-columns: repeat(1,1fr);
+    
+    }
+    }
+    
+    
+    @media only screen and (min-width:688px) and (max-width:992px) {
+     
+     .container{
+         width: 100%;
+        padding: 20px; 
+     }   
+    
+     
+     .part1, .part3{
+    
+        grid-template-columns: repeat(1,1fr);
+      
+    
+     }
+    
+       
+        
+    
+        .parts2{
+    
+            grid-template-columns: repeat(2,1fr);
+    
+        }
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
